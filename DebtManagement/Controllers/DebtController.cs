@@ -13,10 +13,10 @@ namespace DebtManagement.Controllers
     [ApiController]
     public class DebtController : ControllerBase
     {
-        private readonly IDebtService _DebtService;
+
         public DebtController(IDebtService DebtService)
         {
-            _DebtService = DebtService;
+
         }
 
         [AllowAnonymous]
